@@ -43,10 +43,12 @@ const StudentList = () => {
       setSearchError("Please enter a valid Student ID.");
       return;
     }
+
     try {
       const res = await axios.get(
         `http://localhost:5000/students/${searchId.trim()}`
       );
+
       setSearchedStudent(res.data);
       setSearchError("");
     } catch (error) {

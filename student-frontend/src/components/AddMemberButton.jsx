@@ -1,4 +1,3 @@
-import Button from "./Button";
 import PropTypes from "prop-types";
 
 AddMemberButton.propTypes = {
@@ -8,9 +7,9 @@ AddMemberButton.propTypes = {
 function AddMemberButton({ setShowForm }) {
   return (
     <div className="col-md-4 text-end">
-      <Button className="btn btn-primary" onClick={() => setShowForm(true)}>
+      <button className="btn btn-primary" onClick={() => setShowForm(true)}>
         ➕ Add Member
-      </Button>
+      </button>
     </div>
   );
 }

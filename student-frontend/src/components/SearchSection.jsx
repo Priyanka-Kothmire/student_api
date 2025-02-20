@@ -18,10 +18,10 @@ function SearchSection({ searchId, setSearchId, search, resetSearch }) {
         value={searchId}
         onChange={(e) => setSearchId(e.target.value)}
       />
-      <Button className="btn btn-info me-2" onClick={search}>
+      <Button className="btn btn-info me-2" onclick={search}>
         🔍 Search
       </Button>
-      <Button className="btn btn-secondary" onClick={resetSearch}>
+      <Button className="btn btn-secondary" onclick={resetSearch}>
         ❌ Reset
       </Button>
     </div>
