@@ -1,0 +1,259 @@
+{
+	"info": {
+		"_postman_id": "8b0f1b48-b40b-4aba-baf4-5f1108b9373f",
+		"name": "STUDENT_CRUD_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42466496"
+	},
+	"item": [
+		{
+			"name": "Create_Student",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Aishwarya gupta\",\r\n    \"email\": \"aish@example.com\",\r\n    \"age\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_All_Student",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/students?page=1&limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_studentBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/students/67b5d98baeb25f31a5d7f7b7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"67b5d98baeb25f31a5d7f7b7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_studentBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/students/67b5ae43d0551c6a55d03304",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"67b5ae43d0551c6a55d03304"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put_studentBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"datta guru \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/students/67b5ae43d0551c6a55d03304",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"67b5ae43d0551c6a55d03304"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_marksBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"studentId\": \"67b5ae43d0551c6a55d03304\",\r\n  \"subject\": \"gemoetry\",\r\n  \"marks\": 67\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_All_Marks",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/marks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"marks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put_marksBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"subject\": \"english\",\r\n  \"marks\": 98\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/marks/67b5b3fd8bf2ec3f6e1e7d26",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"marks",
+						"67b5b3fd8bf2ec3f6e1e7d26"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_MarksBy_ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/marks/67b6f5fbfdf25339a611a184",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"marks",
+						"67b6f5fbfdf25339a611a184"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

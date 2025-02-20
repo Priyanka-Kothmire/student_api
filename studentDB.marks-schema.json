@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "67b5b3fd8bf2ec3f6e1e7d26"
+  },
+  "studentId": {
+    "$oid": "67b5b3a68bf2ec3f6e1e7d24"
+  },
+  "subject": "english",
+  "score": 85,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b5da0aaeb25f31a5d7f7b9"
+  },
+  "studentId": {
+    "$oid": "67b5d98baeb25f31a5d7f7b7"
+  },
+  "subject": "commerce",
+  "score": 60,
+  "__v": 0
+}]

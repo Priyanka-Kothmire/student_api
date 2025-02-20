@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "67b5ae43d0551c6a55d03304"
+  },
+  "name": "datta guru ",
+  "email": "jija@example.com",
+  "age": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b5b3a68bf2ec3f6e1e7d24"
+  },
+  "name": "soniya sharma",
+  "email": "soniya@gmail.com",
+  "age": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b5de0a40832bd18adc40d3"
+  },
+  "name": "johm",
+  "email": "johm@example.com",
+  "age": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b5e5a440f2838ea0f21213"
+  },
+  "name": "sanjana",
+  "email": "sanjana@gmail.com",
+  "age": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b5e5b740f2838ea0f21215"
+  },
+  "name": "sanju",
+  "email": "sanju@gmail.com",
+  "age": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b6cbf05fb28d039945c29d"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 21
+},
+{
+  "_id": {
+    "$oid": "67b6cbf05fb28d039945c29e"
+  },
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "age": 22
+},
+{
+  "_id": {
+    "$oid": "67b6ce2d7da1b88bbf367d8a"
+  },
+  "name": "radhika",
+  "email": "radha@example.com",
+  "age": 56,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b6ef2efdb7e3231ebb2af6"
+  },
+  "name": "Aishwarya gupta",
+  "email": "aish@example.com",
+  "age": 30,
+  "__v": 0
+}]
