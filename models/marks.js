@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const MarksSchema = new mongoose.Schema({
   studentId: { type: mongoose.Schema.Types.ObjectId, ref: "Student" },
@@ -6,4 +6,4 @@ const MarksSchema = new mongoose.Schema({
   score: Number,
 });
 
-module.exports = mongoose.model("Marks", MarksSchema);
+export default MarksSchema;

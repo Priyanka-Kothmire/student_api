@@ -81,8 +81,7 @@ const StudentList = () => {
           setStudents(students.filter((student) => student._id !== id));
           Swal.fire("Deleted!", "Student has been removed.", "success");
         } catch (error) {
-          console.log(error);
-          Swal.fire("Error!", "Failed to delete student.", "error");
+          Swal.fire("Error!", "Failed to delete student.", error);
         }
       }
     });

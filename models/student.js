@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const StudentSchema = new mongoose.Schema({
   name: String,
@@ -6,4 +6,4 @@ const StudentSchema = new mongoose.Schema({
   age: Number,
 });
 
-module.exports = mongoose.model("Student", StudentSchema);
+export default StudentSchema;
